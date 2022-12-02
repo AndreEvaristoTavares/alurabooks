@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins&display=swap"
+        rel="stylesheet" family=Poppins:wght@300;400;500;700&>
+    <title>Alura Books</title>
+</head>
+
+<body>
+    <header class="topo">
+        <nav class="nav-esquerda">
+            <input type="checkbox" id="menu" class="container-botao">
+            <label for="menu">
+                <span class="menu container-img"></span> 
+            </label>
+            <ul class="lista-menu">
+                <li class="titulo-lista-menu">Categorias</li>
+                <li><a href="">Programação</a></li>
+                <li><a href="">Front-End</a></li>
+                <li><a href="">Infraestrutura</a></li>
+                <li><a href="">Business</a></li>
+                <li><a href="">Design & UX</a></li>
+            </ul>
+            <img class="container-img" src="./img/Polygon1.png" alt="logo">
+            <h1 class="titulo-logo"><apan class="alura-bold">Alura</apan>Books</h1>
+        </nav>
+        <nav class="nav-meio">                
+                <a class="categoria-link" href="">Favoritos</a>
+                <a class="categoria-link" href="">Minha Estante</a>
+        </nav>
+        
+        <nav class="nav-direita">
+            <a class="favorito-icone" href=""><img class="container-img" src="./img/Favoritos.png" alt="Favoritos"></a>
+            <a href=""><img class="container-img" src="./img/Compras.png" alt="Compras"><span class="minha-sacola">Minha Sacola</span></a>
+            <a href=""><img class="container-img" src="./img/Usuario.png" alt="Usuario"><span class="meu-perfil">Meu Perfil</span></a>
+        </nav>
+    </header>
+    <section class="banner">
+        <div class="container-titulo-e-descricao">
+            <h2 class="banner-titulo">Já sabe por onde começar?</h2>
+            <p class="benner-descricao">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
+        </div>
+        <form class="formulario-pesquisa" action="">
+            <img src="./img/Vector.png" alt="icone de pesquisa">
+            <input class="pesquisa" type="text" placeholder="Qual sera sua proxima leitura ?">
+        </form>
+    </section>
+    <h2 class="titulo-carrossel">Últimos lançamentos</h2>
+<div class="container1">
+    <section class="container-carrossel">
+        
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-pagination"></div>
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide"><img src="./img/ApacheKafka.png" alt="ApacheKafka"></div>
+              <div class="swiper-slide"><img src="./img/Liderança.png" alt="Liderança"></div>
+              <div class="swiper-slide"><img src="./img/Javascript.png" alt="Javascript"></div>
+              <div class="swiper-slide"><img src="./img/Arquitetura.png" alt="Arquitetura"></div>
+              <div class="swiper-slide"><img src="./img/Gestão.png" alt="Gestão"></div>
+              <div class="swiper-slide"><img src="./img/Gestão2.png" alt="Gestão2"></div>
+              <div class="swiper-slide"><img src="./img/Liderança.png" alt="Liderança"></div>
+              <div class="swiper-slide"><img src="./img/MetricasAgeis.png" alt="MetricasAgeis"></div>
+              <div class="swiper-slide"><img src="./img/UX.png" alt="UX"></div>
+              <div class="swiper-slide"><img src="./img/ReactNative.png" alt="ReactNative"></div>
+              <div class="swiper-slide"><img src="./img/Nodejs.png" alt="Nodejs"></div>
+              <div class="swiper-slide"><img src="./img/Portugol.png" alt="Portugol"></div>
+              <div class="swiper-slide"><img src="./img/Tuning.png" alt="Tuning"></div>
+              ...
+            </div>
+            <!-- If we need pagination -->
+            
+          
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          
+          </div>
+    </section>
+    <section class="card">
+        <div class="descricao-card">
+            
+            <h2 class="titulo-card">Talvez você também se interesse por...</h2>
+            <h3 class="subtitulo-card">Angular 11 e Firebase</h3>
+            <p class="paragrafo-descricao">Construindo uma aplicação integrada com a plataforma do Google.</p>  
+    
+            <div class="links-card">
+                <a href=""><img src="./img/Favoritos.png" alt=""></a>
+                <a href=""><img src="./img/Compras.png" alt=""></a>
+            </div>
+        </div>
+        <div class="saiba-mais">
+            <img class="img-card" src="./img/angular.png" alt="">
+            <a class="botao-card" href="">Saiba mais</a>
+        </div>
+    </section>
+</div>
+<h2 class="titulo-carrossel">Mais vendidos</h2>
+<div class="container1">
+    <section class="container-carrossel">
+        
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-pagination"></div>
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide"><img src="./img/ApacheKafka.png" alt="ApacheKafka"></div>
+              <div class="swiper-slide"><img src="./img/Liderança.png" alt="Liderança"></div>
+              <div class="swiper-slide"><img src="./img/Javascript.png" alt="Javascript"></div>
+              <div class="swiper-slide"><img src="./img/Arquitetura.png" alt="Arquitetura"></div>
+              <div class="swiper-slide"><img src="./img/Gestão.png" alt="Gestão"></div>
+              <div class="swiper-slide"><img src="./img/Gestão2.png" alt="Gestão2"></div>
+              <div class="swiper-slide"><img src="./img/Liderança.png" alt="Liderança"></div>
+              <div class="swiper-slide"><img src="./img/MetricasAgeis.png" alt="MetricasAgeis"></div>
+              <div class="swiper-slide"><img src="./img/UX.png" alt="UX"></div>
+              <div class="swiper-slide"><img src="./img/ReactNative.png" alt="ReactNative"></div>
+              <div class="swiper-slide"><img src="./img/Nodejs.png" alt="Nodejs"></div>
+              <div class="swiper-slide"><img src="./img/Portugol.png" alt="Portugol"></div>
+              <div class="swiper-slide"><img src="./img/Tuning.png" alt="Tuning"></div>
+              ...
+            </div>
+            <!-- If we need pagination -->
+            
+          
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          
+          </div>
+    </section>
+    <section class="card">
+        <div class="descricao-card">
+            <div>
+                <img src="./img/Star 1.png" alt="">
+                <img src="./img/Star 1.png" alt="">
+                <img src="./img/Star 1.png" alt="">
+                <img src="./img/Star 1.png" alt="">
+                <img src="./img/Star 1.png" alt="">
+            </div>
+            <h2 class="titulo-card">Autora do Mês</h2>
+            <h3 class="subtitulo-card">Juliana Agarikov</h3>
+            <p class="paragrafo-descricao">Construindo uma aplicação integrada com a plataforma do Google.</p>  
+    
+            <div class="links-card">
+                <a href=""><img src="./img/Favoritos.png" alt=""></a>
+                <a href=""><img src="./img/Compras.png" alt=""></a>
+            </div>
+        </div>
+        <div class="saiba-mais">
+            <img class="img-card" src="./img/Perfil-escritora 1.png" alt="">
+            <a class="botao-card" href="">Saiba mais</a>
+        </div>
+    </section>
+</div>
+    <section class="topicos">
+        <h2 class="titulo-topicos">Tópicos visitados rescentemente</h2>
+        <ul>
+            <li><a href="">Android</a></li>
+            <li><a href="">OO</a></li>
+            <li><a href="">Marketing Digital</a></li>
+            <li><a href="">Agile</a></li>
+            <li><a href="">Startups</a></li>
+            <li><a href="">HTML & CSS</a></li>
+            <li><a href="">Java</a></li>
+            <li><a href="">Python</a></li>
+        </ul>
+    </section>
+    <section class="contato">
+        <div>
+            <h2 class="titulo-contato">Fique por dentro das novidades!</h2>
+            <p class="paragrafo-contato">Atualizações de e-books, novos livros, promoções e outros.</p>
+        </div>
+        
+        <form class="formulario-de-contato" action="">
+            <img src="./img/email.png" alt="email">
+            <input type="email" placeholder="Cadastre seu email" class="contato-email">
+            <button class="enviar-email"><img src="./img/Vector.png" alt="icone de pesquisa"></button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Grupo Alura</p>
+        <div>
+            <h2>Educação</h2>
+            <ul>
+                <li><img src="./img/Caelum.png" alt=""><a href="">Caelum</a></li>
+                <li><img src="./img/CasaDoCodigo.png" alt=""><a href="">Casa do código</a></li>
+            </ul>
+
+        </div>
+        <div>
+            <h2>Educação online</h2>
+            <ul>
+                <li><img src="./img/Alura.png" alt=""><a href="">Alura</a></li>
+                <li><img src="./img/AluraEmpresas.png" alt=""><a href="">Alura para empresas</a></li>
+                <li><img src="./img/AluraLatam.png" alt=""><a href="">Alura Latam</a></li>
+                <li><img src="./img/AluraStart.png" alt=""><a href="">Alura Start</a></li>
+                <li><img src="./img/MusicDot.png" alt=""><a href="">MusicDot</a></li>
+                <li><img src="./img/AluraLingua.png" alt="AluraLingua"><a href="">Alura Lingua</a></li>
+                <li><img src="./img/PM3.png" alt="PM3"><a href="">PM3</a></li>
+            </ul>
+
+        </div>
+        <div>
+            <h2>Comunidade</h2>
+            <ul>
+                <li><img src="./img/Caelum.png" alt=""><a href="">Caelum</a></li>
+                <li><img src="./img/CasaDoCodigo.png" alt=""><a href="">Casa do código</a></li>
+                <li><img src="./img/HipstersJobs.png" alt="HipstersPontoTech"><a href="">Hipsters ponto tech</a></li>
+                <li><img src="./img/Scuba.png" alt="Scuba"><a href="">Scuba Dev</a></li>
+                <li><img src="./img/Layers.png" alt="Layers"><a href="">Layers ponto tech</a></li>
+                <li><img src="./img/LikeABoss.png" alt="LikeABoss"><a href="">Like A Boss</a></li>
+                <li><img src="./img/HipstersJobs.png" alt="Hipsters"><a href="">Hipsters Jobs</a></li>
+                <li><img src="./img/GUJ.png" alt=""><a href="">GUJ</a></li>
+            </ul>
+
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            speed: 400,
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+            });
+    
+    </script>
+</body>
+
+</html>

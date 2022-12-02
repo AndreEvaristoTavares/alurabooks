@@ -1,0 +1,82 @@
+.card {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #ffffff;
+    margin: 20px auto;
+    height: 295px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    max-width: 540px;
+    padding: 10px;
+}
+.img-card{
+    max-width: 200px;
+}
+.descricao-card, .saiba-mais {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.saiba-mais{
+    justify-self: end;
+}
+
+.titulo-card {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #EB9B00;
+}
+
+.subtitulo-card {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    color: #002F52;
+}
+
+.paragrafo-descricao {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    max-width: 200px;
+}
+
+.links-card {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+
+}
+
+.links-card a {
+    margin-left: 16px;
+}
+
+.botao-card {
+    display: flex;
+    max-width: 200px;
+    justify-content: center;
+    align-items: center;
+    background-color: #EB9B00;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    padding: 8px 16px;
+    gap: 10px;
+    text-decoration: none;
+}
+.botao-card:hover{
+    background-color: rgb(143, 79, 1);
+}
+@media screen and (min-width:1440px) {
+    .card{
+        height: 370px;
+    }
+    .img-card{
+        width: 300px;
+    }
+}

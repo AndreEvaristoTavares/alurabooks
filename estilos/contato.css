@@ -1,0 +1,86 @@
+.contato{
+    padding: 30px;
+}
+.formulario-de-contato{
+    display: flex;
+    width: 90%;
+    max-width: 768px;
+    height: 30px;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 25px;
+    padding: 15px 20px;
+    margin-top: 30px;
+    align-self: center;
+}
+.contato-email{
+    font-size: 15px;
+}
+.enviar-email{
+    border: none;
+   display: flex;
+   align-items: center;
+}
+
+@media screen and (min-width:768px){
+    .contato{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .contato div{
+        padding: 50px;
+    }
+}
+.titulo-contato{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    margin: 10px 0;
+    background: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    
+}
+.paragrafo-contato{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    margin: 10px 0;
+    background: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    
+    
+}
+.formulario-de-contato{
+    display: flex;
+    max-width: 768px;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 25px;
+    padding: 15px 20px;
+    margin-top: 30px;
+    align-self: center;
+}
+.formulario-de-contato img{
+    margin-right: 10px;
+}
+.contato-email{
+    width: 100%;
+    border: none;
+    font-size: 17px;
+    background-color: transparent;
+    background: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.contato-email::placeholder{
+    font-family: 'Poppins';
+}
+.contato-email:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
